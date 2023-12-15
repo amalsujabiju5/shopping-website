@@ -1,0 +1,134 @@
+#page-header {
+    background-image: url("img/banner/b1.jpg");
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    flex-direction: column;
+    padding: 14px;
+    text-align: center;
+}
+
+#page-header p{
+font-size: 25px;
+color: #fff;
+
+}
+
+/*for the pagination */
+
+#pagination{
+    text-align: center;
+}
+
+#pagination a{
+    text-decoration: none;
+    background-color: #088178;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 20px;
+}
+
+#pagination a i{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+
+/*for the Prod details*/
+
+#prodetails .single-pro-image{
+    width: 30%;
+    margin-right: 50px;
+}
+
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+#prodetails{
+    display: flex;
+    margin-top: 20px;
+}
+
+#prodetails .single-pro-details{
+    width: 50%;
+    padding-top: 10px;
+    
+}
+
+#prodetails h2{
+    color: black;
+    padding-right: 100%;
+    
+}
+
+
+#prodetails .single-pro-details h4{
+    padding: 20px
+}
+
+#prodetails .single-pro-details select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+#prodetails .single-pro-details input{
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#prodetails .single-pro-details input:focus{
+    outline: none;
+}
+
+#prodetails .single-pro-details button{
+    width: 100px;
+    height: 40px;
+    background-color:#008178;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    transition: 0.3s ease;
+}
+
+#prodetails .single-pro-details button:hover{
+    background-color: #00554f;
+}
+
+#prodetails .single-pro-details span{
+    color: black;
+    line-height: 2;
+}
+
+#prodetails .single-pro-details h2{
+    font-size: 25px;
+    color: black;
+}
+
+
+
+@media(max-width: 769px) {
+
+#prodetails .single-pro-details span {
+        color: black;
+        line-height: 1;
+        order: -25px;
+        /* Move the span to the beginning of the flex container */
+    
+
+}
+}
